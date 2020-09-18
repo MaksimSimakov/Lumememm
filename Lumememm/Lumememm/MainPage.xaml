@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumememm.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="on"
+                BackgroundColor="black" 
+                   Padding="40" 
+                   CornerRadius="5" 
+                   Margin="140,0">
+                <Label x:Name="Small"
+                       FontSize="Large">
+                </Label>
+            </Frame>
+
+            <Frame x:Name="oo"
+                BackgroundColor="DeepSkyBlue" 
+                   BorderColor="black"
+                    Padding="80" 
+                    CornerRadius="140" 
+                    Margin="110,0">
+                <Label x:Name="Medium"
+                       FontSize="Large">
+                </Label>
+            </Frame>
+            <Frame x:Name="or"
+                BackgroundColor="DeepSkyBlue"
+                   BorderColor="Black"
+                   Padding="90"
+                   CornerRadius="140"
+                   Margin="90,0">
+                <Label x:Name="large"
+                          FontSize="large">
+                </Label>
+            </Frame>
+            <Frame x:Name="ot"
+                BackgroundColor="DeepSkyBlue"
+                   BorderColor="black"   
+                   Padding="100"
+                      CornerRadius="140"
+                      Margin="70,001
+                   ">
+                <Label x:Name="Large"
+                       FontSize="large">
+                </Label>
+            </Frame>
+                
+              <StackLayout Orientation="Horizontal">
+                <Button x:Name="on"
+                        Text="Убрать"
+                        BackgroundColor="Blue"
+                        HorizontalOptions="Center"
+                        Clicked="on_Clicked"/>
+                <Button x:Name="off"
+                        Text="Вернуть"
+                        BackgroundColor="yellow"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="off_Clicked"/>
+                <Button x:Name="Random"
+                        Text="Random"
+                        BackgroundColor="Green"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Random_Clicked"/>
+                <Button x:Name="Oma"
+                        Text="Растопить"
+                        BackgroundColor="Red"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Oma_licked"/>
+                <StackLayout/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
