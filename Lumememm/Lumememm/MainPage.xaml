@@ -5,7 +5,7 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Frame x:Name="on"
+            <Frame x:Name="lon"
                 BackgroundColor="black" 
                    Padding="40" 
                    CornerRadius="5" 
@@ -46,8 +46,8 @@
                        FontSize="large">
                 </Label>
             </Frame>
-                
-              <StackLayout Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
                 <Button x:Name="on"
                         Text="Убрать"
                         BackgroundColor="Blue"
@@ -67,9 +67,15 @@
                         Text="Растопить"
                         BackgroundColor="Red"
                         HorizontalOptions="EndAndExpand"
-                        Clicked="Oma_licked"/>
+                        Clicked="Oma_Clicked"/>
                 <StackLayout/>
-
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Button x:Name="Oma"
+                       Text="Oma"
+                       BackgroundColor="gray"
+                       HorizontalOptions="EndAndExpand"
+                        Clicked="Oma_Clicked_1"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
